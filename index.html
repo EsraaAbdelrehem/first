@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            box-sizing: border-box;
+            float: left;
+            margin: 2px;
+            word-wrap: break-word;
+        }
+
+        ul {
+            margin-left: -1em;
+            text-align: left;
+            list-style: none;
+        }
+
+        ul li::before {
+            margin-left: -1em;
+
+            content: "\2022";
+            display: inline-block;
+            color: rgb(0, 119, 255);
+        }
+
+        h1 {
+            color: rgb(0, 119, 255);
+            text-align: right;
+        }
+
+        .dash {
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+            color: rgb(0, 119, 255);
+            text-align: left;
+        }
+
+        h2 {
+
+            color: rgb(0, 119, 255);
+            text-align: left;
+        }
+
+        h3 {
+            color: rgb(0, 119, 255);
+            text-align: right;
+        }
+
+        p {
+            color: rgb(0, 119, 255);
+            position: relative;
+            top: 15px;
+            box-sizing: border-box;
+            word-wrap: inherit;
+            text-align: left;
+            align-self: auto;
+        }
+
+        .fix {
+            border-style: outset;
+            border-radius: 25px;
+            border-color: blue;
+            float: left;
+            width: 20%;
+            background-color: rgb(0, 174, 255);
+            width: 20%;
+            position: static;
+            top: 0px;
+            left: 0px;
+        }
+
+        .aqua {
+            float: left;
+            width: 100%;
+            background-color: aqua;
+        }
+
+        img {
+            float: right;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            overflow: auto;
+        }
+
+        .back {
+            float: right;
+            border-radius: 25px;
+            width: 78%;
+            border-color: blue;
+            border-width: 1.5px;
+            border-style: outset;
+            overflow: auto;
+            text-align: left;
+            margin-bottom: 1.5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+            padding-bottom: 15px;
+
+            background-color: paleturquoise;
+        }
+    </style>
+    <title>VICTORIA'S JOURNAL</title>
+</head>
+
+<body>
+    <div class="aqua">
+        <h1>Victoria's Journal</h1>
+        <h3>So fresh and so clean</h3>
+    </div>
+    <div class="fix">
+        <h2>Friends</h2>
+        <ul>
+            <li> &nbsp; 19om Buddies</li>
+            <li> &nbsp; Big Will</li>
+            <li> &nbsp; Conan the Librarian</li>
+        </ul>
+    </div>
+    <div class="back">
+        <h2>
+            <div class="dash">04/09/08:</div> Spatulas
+        </h2>
+        <img src=" spatulas.jpg">
+        <p>Yesterday I went to store and got some much-needed spatulas! (What better way to say I love &nbsp; myself
+            than to
+            buy myself a spatula?)</p>
+    </div>
+
+
+    <div class="back">
+        <h2>
+            <div class="dash"> 04/08/08:</div> Cookie Monster Cupcakes
+        </h2>
+        <img src="cookie.jpg">
+        <p>my favorite cartoon character is cookie monster, and my favorite dessert is Cupcakes, so
+            Cookie Monster Cupcakes are the best of both worlds.<br>
+            Did you know?Cookie Monster once said,"Sometimes me think what is love, and then me
+            think love is what last cookie is for. Me give up the last cookie for you."I wonder if the same
+            applies for cupcakes?(If so, I don't think I can ever love ANYONE!)
+        </p>
+
+    </div>
+</body>
+
+</html>
